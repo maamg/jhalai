@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Hiragana Flashcards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #f4f4f9;
+            --text-color: #333;
+            --card-front: #ffffff;
+            --card-back: #e8f5e9;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: var(--secondary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 { color: #2c3e50; margin-bottom: 10px; text-align: center; }
+        .progress { margin-bottom: 20px; font-weight: bold; color: #666; }
+
+        /* ফ্ল্যাশকার্ড কন্টেইনার */
+        .flashcard-container {
+            width: 350px;
+            height: 250px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .flashcard-inner {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-radius: 20px;
+        }
+
+        .flashcard-container.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+
+        .front, .back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            border: 2px solid #ddd;
+        }
+
+        .front {
+            background-color: var(--card-front);
+            font-size: 80px;
+            color: #b03a2e;
+            font-weight: bold;
+        }
+
+        .back {
+            background-color: var(--card-back);
+            color: var(--text-color);
+            transform: rotateY(180deg);
+        }
+
+        .romaji { font-size: 40px; font-weight: bold; color: #2e7d32; margin-bottom: 5px; }
+        .english { font-size: 24px; font-style: italic; color: #555; }
+
+        /* কন্ট্রোল বাটন */
+        .controls {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            background-color: #2c3e50;
+            color: white;
+            transition: 0.3s;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        button:hover { background-color: #34495e; transform: translateY(-2px); }
+        button:active { transform: translateY(0); }
+        .shuffle-btn { background-color: #8e44ad; }
+        .shuffle-btn:hover { background-color: #9b59b6; }
+
+        @media (max-width: 400px) {
+            .flashcard-container { width: 300px; height: 220px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>হিরাগানা শব্দ শিখুন (২০০ টি)</h2>
+    <div class="progress" id="progress-text">কার্ড: ১ / ২০০</div>
+
+    <div class="flashcard-container" id="card-container" onclick="flipCard()">
+        <div class="flashcard-inner">
+            <div class="front" id="front-text">いぬ</div>
+            <div class="back">
+                <div class="romaji" id="back-romaji">Inu</div>
+                <div class="english" id="back-english">Dog</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="prevCard()">আগেরটি</button>
+        <button onclick="nextCard()">পরেরটি</button>
+        <button class="shuffle-btn" onclick="shuffleCards()">এলোমেলো করুন</button>
+    </div>
+
+    <script>
+        // ১০০টি শব্দের ডাটাবেস
+        let flashcards = [
+            // প্রথম ১০০টি শব্দ
+            { h: "あめ", r: "Ame", e: "Rain" }, { h: "うみ", r: "Umi", e: "Sea" }, { h: "そら", r: "Sora", e: "Sky" }, { h: "やま", r: "Yama", e: "Mountain" }, { h: "かわ", r: "Kawa", e: "River" },
+            { h: "ゆき", r: "Yuki", e: "Snow" }, { h: "はな", r: "Hana", e: "Flower" }, { h: "つき", r: "Tsuki", e: "Moon" }, { h: "きく", r: "Kiku", e: "Chrysanthemum" }, { h: "くも", r: "Kumo", e: "Cloud" },
+            { h: "かぜ", r: "Kaze", e: "Wind" }, { h: "いけ", r: "Ike", e: "Pond" }, { h: "いし", r: "Ishi", e: "Stone" }, { h: "もり", r: "Mori", e: "Forest" }, { h: "つち", r: "Tsuchi", e: "Soil" },
+            { h: "たに", r: "Tani", e: "Valley" }, { h: "あさ", r: "Asa", e: "Morning" }, { h: "よる", r: "Yoru", e: "Night" }, { h: "ひる", r: "Hiru", e: "Daytime" }, { h: "はる", r: "Haru", e: "Spring" },
+            { h: "なつ", r: "Natsu", e: "Summer" }, { h: "あき", r: "Aki", e: "Autumn" }, { h: "ふゆ", r: "Fuyu", e: "Winter" }, { h: "ひび", r: "Hibi", e: "Days" }, { h: "にじ", r: "Niji", e: "Rainbow" },
+            { h: "いぬ", r: "Inu", e: "Dog" }, { h: "ねこ", r: "Neko", e: "Cat" }, { h: "とり", r: "Tori", e: "Bird" }, { h: "さる", r: "Saru", e: "Monkey" }, { h: "うし", r: "Ushi", e: "Cow" },
+            { h: "うま", r: "Uma", e: "Horse" }, { h: "しか", r: "Shika", e: "Deer" }, { h: "くま", r: "Kuma", e: "Bear" }, { h: "とら", r: "Tora", e: "Tiger" }, { h: "りす", r: "Risu", e: "Squirrel" },
+            { h: "かに", r: "Kani", e: "Crab" }, { h: "えび", r: "Ebi", e: "Shrimp" }, { h: "かめ", r: "Kame", e: "Turtle" }, { h: "へび", r: "Hebi", e: "Snake" }, { h: "むし", r: "Mushi", e: "Insect" },
+            { h: "たこ", r: "Tako", e: "Octopus" }, { h: "いか", r: "Ika", e: "Squid" }, { h: "ふぐ", r: "Fugu", e: "Puffer fish" }, { h: "さめ", r: "Same", e: "Shark" }, { h: "わに", r: "Wani", e: "Crocodile" },
+            { h: "かお", r: "Kao", e: "Face" }, { h: "みみ", r: "Mimi", e: "Ear" }, { h: "くち", r: "Kuchi", e: "Mouth" }, { h: "はな", r: "Hana", e: "Nose" }, { h: "あし", r: "Ashi", e: "Leg/Foot" },
+            { h: "うで", r: "Ude", e: "Arm" }, { h: "ゆび", r: "Yubi", e: "Finger" }, { h: "かた", r: "Kata", e: "Shoulder" }, { h: "くび", r: "Kubi", e: "Neck" }, { h: "むね", r: "Mune", e: "Chest" },
+            { h: "はだ", r: "Hada", e: "Skin" }, { h: "かみ", r: "Kami", e: "Hair" }, { h: "ひざ", r: "Hiza", e: "Knee" }, { h: "ひと", r: "Hito", e: "Person" }, { h: "こえ", r: "Koe", e: "Voice" },
+            { h: "いえ", r: "Ie", e: "House" }, { h: "えき", r: "Eki", e: "Station" }, { h: "かさ", r: "Kasa", e: "Umbrella" }, { h: "くつ", r: "Kutsu", e: "Shoes" }, { h: "ふく", r: "Fuku", e: "Clothes" },
+            { h: "ほん", r: "Hon", e: "Book" }, { h: "ぺん", r: "Pen", e: "Pen" }, { h: "まど", r: "Mado", e: "Window" }, { h: "へや", r: "Heya", e: "Room" }, { h: "ゆか", r: "Yuka", e: "Floor" },
+            { h: "かべ", r: "Kabe", e: "Wall" }, { h: "いい", r: "Ii", e: "Good" }, { h: "はた", r: "Hata", e: "Flag" }, { h: "みず", r: "Mizu", e: "Water" }, { h: "にく", r: "Niku", e: "Meat" },
+            { h: "こめ", r: "Kome", e: "Rice" }, { h: "もち", r: "Mochi", e: "Rice Cake" }, { h: "しお", r: "Shio", e: "Salt" }, { h: "さけ", r: "Sake", e: "Alcohol" }, { h: "すし", r: "Sushi", e: "Sushi" },
+            { h: "あか", r: "Aka", e: "Red" }, { h: "あお", r: "Ao", e: "Blue" }, { h: "しろ", r: "Shiro", e: "White" }, { h: "くろ", r: "Kuro", e: "Black" }, { h: "いろ", r: "Iro", e: "Color" },
+            { h: "ゆめ", r: "Yume", e: "Dream" }, { h: "うた", r: "Uta", e: "Song" }, { h: "まめ", r: "Mame", e: "Bean" }, { h: "もじ", r: "Moji", e: "Letter" }, { h: "きく", r: "Kiku", e: "To listen" },
+            { h: "よむ", r: "Yomu", e: "To read" }, { h: "かく", r: "Kaku", e: "To write" }, { h: "ねる", r: "Neru", e: "To sleep" }, { h: "みる", r: "Miru", e: "To see" }, { h: "かう", r: "Kau", e: "To buy" },
+            { h: "あう", r: "Au", e: "To meet" }, { h: "いう", r: "Iu", e: "To say" }, { h: "ある", r: "Aru", e: "To be (object)" }, { h: "いる", r: "Iru", e: "To be (living)" }, { h: "いま", r: "Ima", e: "Now" },
+
+            // নতুন ১০০টি শব্দ
+            { h: "あに", r: "Ani", e: "Older brother" }, { h: "あね", r: "Ane", e: "Older sister" }, { h: "ちち", r: "Chichi", e: "Father" }, { h: "はは", r: "Haha", e: "Mother" }, { h: "おと", r: "Oto", e: "Sound" },
+            { h: "きみ", r: "Kimi", e: "You" }, { h: "ぼく", r: "Boku", e: "I / Me" }, { h: "ほし", r: "Hoshi", e: "Star" }, { h: "まち", r: "Machi", e: "Town / City" }, { h: "むら", r: "Mura", e: "Village" },
+            { h: "くに", r: "Kuni", e: "Country" }, { h: "しま", r: "Shima", e: "Island" }, { h: "さか", r: "Saka", e: "Hill / Slope" }, { h: "ぬま", r: "Numa", e: "Swamp" }, { h: "がけ", r: "Gake", e: "Cliff" },
+            { h: "きり", r: "Kiri", e: "Fog / Mist" }, { h: "つゆ", r: "Tsuyu", e: "Dew / Rainy season" }, { h: "しも", r: "Shimo", e: "Frost" }, { h: "あわ", r: "Awa", e: "Bubble / Foam" }, { h: "どろ", r: "Doro", e: "Mud" },
+            { h: "すな", r: "Suna", e: "Sand" }, { h: "えだ", r: "Eda", e: "Branch" }, { h: "くき", r: "Kuki", e: "Stem" }, { h: "たね", r: "Tane", e: "Seed" }, { h: "みつ", r: "Mitsu", e: "Honey / Nectar" },
+            { h: "もも", r: "Momo", e: "Peach" }, { h: "なし", r: "Nashi", e: "Pear" }, { h: "かき", r: "Kaki", e: "Persimmon / Oyster" }, { h: "うめ", r: "Ume", e: "Plum" }, { h: "くり", r: "Kuri", e: "Chestnut" },
+            { h: "ねぎ", r: "Negi", e: "Green onion" }, { h: "なす", r: "Nasu", e: "Eggplant" }, { h: "いも", r: "Imo", e: "Potato" }, { h: "ごま", r: "Goma", e: "Sesame" }, { h: "むぎ", r: "Mugi", e: "Wheat / Barley" },
+            { h: "ゆず", r: "Yuzu", e: "Yuzu citrus" }, { h: "のり", r: "Nori", e: "Seaweed" }, { h: "あじ", r: "Aji", e: "Taste / Flavor" }, { h: "ちゃ", r: "Cha", e: "Tea" }, { h: "ぶた", r: "Buta", e: "Pig" },
+            { h: "やぎ", r: "Yagi", e: "Goat" }, { h: "ぞう", r: "Zou", e: "Elephant" }, { h: "さい", r: "Sai", e: "Rhino" }, { h: "はと", r: "Hato", e: "Pigeon / Dove" }, { h: "わし", r: "Washi", e: "Eagle" },
+            { h: "たか", r: "Taka", e: "Hawk" }, { h: "かも", r: "Kamo", e: "Duck" }, { h: "つる", r: "Tsuru", e: "Crane" }, { h: "たい", r: "Tai", e: "Sea bream" }, { h: "さば", r: "Saba", e: "Mackerel" },
+            { h: "こい", r: "Koi", e: "Carp" }, { h: "はち", r: "Hachi", e: "Bee" }, { h: "あり", r: "Ari", e: "Ant" }, { h: "はえ", r: "Hae", e: "Fly (insect)" }, { h: "あご", r: "Ago", e: "Chin / Jaw" },
+            { h: "ほね", r: "Hone", e: "Bone" }, { h: "つめ", r: "Tsume", e: "Nail / Claw" }, { h: "つの", r: "Tsuno", e: "Horn" }, { h: "はね", r: "Hane", e: "Feather / Wing" }, { h: "きも", r: "Kimo", e: "Liver" },
+            { h: "あせ", r: "Ase", e: "Sweat" }, { h: "ふね", r: "Fune", e: "Ship / Boat" }, { h: "はし", r: "Hashi", e: "Bridge / Chopsticks" }, { h: "かぎ", r: "Kagi", e: "Key" }, { h: "はこ", r: "Hako", e: "Box" },
+            { h: "いす", r: "Isu", e: "Chair" }, { h: "あみ", r: "Ami", e: "Net" }, { h: "つな", r: "Tsuna", e: "Rope" }, { h: "ひも", r: "Himo", e: "String" }, { h: "はり", r: "Hari", e: "Needle" },
+            { h: "ふで", r: "Fude", e: "Brush" }, { h: "すみ", r: "Sumi", e: "Ink / Corner" }, { h: "かね", r: "Kane", e: "Bell / Money" }, { h: "さつ", r: "Satsu", e: "Bill / Note" }, { h: "ごみ", r: "Gomi", e: "Trash / Garbage" },
+            { h: "ちり", r: "Chiri", e: "Dust" }, { h: "びん", r: "Bin", e: "Bottle" }, { h: "かん", r: "Kan", e: "Can" }, { h: "ふた", r: "Futa", e: "Lid" }, { h: "わな", r: "Wana", e: "Trap" },
+            { h: "まと", r: "Mato", e: "Target" }, { h: "ゆみ", r: "Yumi", e: "Bow" }, { h: "やり", r: "Yari", e: "Spear" }, { h: "たて", r: "Tate", e: "Shield" }, { h: "つえ", r: "Tsue", e: "Cane / Wand" },
+            { h: "わく", r: "Waku", e: "Frame" }, { h: "まく", r: "Maku", e: "Curtain" }, { h: "えり", r: "Eri", e: "Collar" }, { h: "にわ", r: "Niwa", e: "Garden" }, { h: "そで", r: "Sode", e: "Sleeve" },
+            { h: "かこ", r: "Kako", e: "Past" }, { h: "みせ", r: "Mise", e: "Shop / Store" }, { h: "うそ", r: "Uso", e: "Lie / Falsehood" }, { h: "きず", r: "Kizu", e: "Wound / Flaw" }, { h: "やく", r: "Yaku", e: "To bake / grill" },
+            { h: "あす", r: "Asu", e: "Tomorrow" }, { h: "いく", r: "Iku", e: "To go" }, { h: "くる", r: "Kuru", e: "To come" }, { h: "まつ", r: "Matsu", e: "To wait" }, { h: "もつ", r: "Motsu", e: "To hold" }
+        ];
+
+        let currentIndex = 0;
+
+        function updateCard() {
+            const cardContainer = document.getElementById("card-container");
+            cardContainer.classList.remove("flipped"); // নতুন কার্ড আসার সময় উল্টানো অবস্থা বন্ধ হবে
+
+            setTimeout(() => {
+                document.getElementById("front-text").innerText = flashcards[currentIndex].h;
+                document.getElementById("back-romaji").innerText = flashcards[currentIndex].r;
+                document.getElementById("back-english").innerText = flashcards[currentIndex].e;
+                document.getElementById("progress-text").innerText = `কার্ড: ${currentIndex + 1} / ${flashcards.length}`;
+            }, 150);
+        }
+
+        function flipCard() {
+            document.getElementById("card-container").classList.toggle("flipped");
+        }
+
+        function nextCard() {
+            if (currentIndex < flashcards.length - 1) {
+                currentIndex++;
+                updateCard();
+            }
+        }
+
+        function prevCard() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCard();
+            }
+        }
+
+        function shuffleCards() {
+            flashcards.sort(() => Math.random() - 0.5);
+            currentIndex = 0;
+            updateCard();
+            alert("শব্দগুলো এলোমেলো করা হয়েছে!");
+        }
+
+        // কীবোর্ড সাপোর্ট (Arrow keys)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "ArrowRight") nextCard();
+            if (e.key === "ArrowLeft") prevCard();
+            if (e.key === " ") { e.preventDefault(); flipCard(); }
+        });
+    </script>
+</body>
+</html>
+
+

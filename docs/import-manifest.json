@@ -1,0 +1,1484 @@
+[
+  {
+    "source": "Code In Place/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "Code In Place/.idea/Code In Place.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "c06978aa6ab3345f94425dae5dabf0e6c84257e758e23d8c11d564e977eb7d19"
+  },
+  {
+    "source": "Code In Place/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "Code In Place/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "Code In Place/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "95808728a6544d969d4ab8119356234be1a2b91ecdca03016444f78c95a42ee5"
+  },
+  {
+    "source": "Code In Place/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "2e197ee57fd1c631d8ab4bfb129c3bab112e50d9c7ba63bd3d59f8c388ebc002"
+  },
+  {
+    "source": "Code In Place/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "bd59acb9d0180e9c5730a6f24a6bc40920bb251d0def85de9b1dd91c4a65cfc1"
+  },
+  {
+    "source": "Code In Place/1st Algarithom.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "acce79c21f6fc86a7e4e84463b6d462266b23f271e1756eb982013b035dd3364"
+  },
+  {
+    "source": "Code In Place/1st Week.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "b41e47e49c29869ce86265b78df1788387e2d1b5e8645e041f22b0d4e5d4f1d0"
+  },
+  {
+    "source": "Code In Place/2nd Week's.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "4e23625149f09b5d2a96eab4bd0fafe32b81af6589e7073fb45f793ac0c83fae"
+  },
+  {
+    "source": "Code In Place/Course Certificate.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "2317bb6e36872ac057c6ddf19c329fb42b2da5bbfb1121e8a4b0572f7f23ad83"
+  },
+  {
+    "source": "Code In Place/Diagnostic.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "b8f7c0926c98b4f74341f1eaeead1e7bd142fa7cb6d63a26117cadcf3bbc055f"
+  },
+  {
+    "source": "Code In Place/Encapsulation Principle.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "cbb3ace6fa1c510fd65b778d847dfd658e5cd1de2867e05133b0535cc424c670"
+  },
+  {
+    "source": "Code In Place/First Class.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "3adb217e244440c0bc332cd3bb3b23d1249065c51a255307f6e2c7ee49671e6d"
+  },
+  {
+    "source": "Code In Place/FirstPrinciple.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "aee18782ae1aafbad9b0b49718a586104899569e0d884d06fe7c0127a2c493cf"
+  },
+  {
+    "source": "Code In Place/Function Header Comments.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "7bc98ed6286ce1d4e032018ee3bedda14cb14dc07e969d07ba33a6b5a1b0c283"
+  },
+  {
+    "source": "Code In Place/Function Parameter passing mechanism.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "05d1bde6dceb65b2acc529cdbbfe23abe3a1ba606b8a7b8ef4052124c0b9938b"
+  },
+  {
+    "source": "Code In Place/Lectutre Slide 9.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "1050b8571ef677b4c08f37df27e066d1e4d16bef6f41f725d9bb75fb07e3f58f"
+  },
+  {
+    "source": "Code In Place/Precedence Madness.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "8bed94e4d41ff18db595b203b62daf0568ec1fa88ee10fb66dc480b27f6410f2"
+  },
+  {
+    "source": "Code In Place/Programming Principle.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "e9fae79405e2965330ecc229923713442bd43d4cd7b7d8d0c5757a0ce21ceaaf"
+  },
+  {
+    "source": "Code In Place/Programming Style.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "9e28701b7742f62ae0f9e1d4b7f7429d94a6904b29c99e30de48650bc9759755"
+  },
+  {
+    "source": "Code In Place/Screenshot_4.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "fa9aae4f697d51a83356d6362a97ba8732c194f19ee54625c4bdf9a8104032af"
+  },
+  {
+    "source": "Code In Place/SecondKey.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "4bee55d6722210e77bee674740985d4618ede92e94768b12301abd5c89c86fe9"
+  },
+  {
+    "source": "Code In Place/Section Time.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "69c4326eb11939514976140204c93dae676c663a0407b9721e5b4edde6bfdae3"
+  },
+  {
+    "source": "Code In Place/Submit Final project.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "6f61b51c6ed3cadfb4a505f09776aba15de902b465b2bdad3329c7bc8aec5534"
+  },
+  {
+    "source": "Code In Place/When while and for loop.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "5bfebbc6dd078c76177798026e1431fc56538e6140318c58cd2446bf919bafdb"
+  },
+  {
+    "source": "Code In Place/Which door you chose.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "6cbb18a76b2cacc23fc53519851c4628b43b95a3e940136bfe5d6707d5943e1b"
+  },
+  {
+    "source": "Code In Place/lecture-slides-10.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "5180dda2e5f753172891f796e04e7e04971d475880d03bdd42ec3d991ab9754e"
+  },
+  {
+    "source": "Code In Place/precondition for loop.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "7f24d2d7e1c1fce617234856e3df296480269ff54c4e23027b63d1c5069abbd1"
+  },
+  {
+    "source": "GEE/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16"
+  },
+  {
+    "source": "GEE/.idea/GEE.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "GEE/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "GEE/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "GEE/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6f57a5f16a000f610ef9ec0729051892c96aa3553a2a294a0a8076a771f6fabb"
+  },
+  {
+    "source": "GEE/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5a83a0da384384e509e85200144465a2d970b23ae70e1b5bf528e06f66beace0"
+  },
+  {
+    "source": "GEE/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "f28458c1e241dc6127eccad9cd35f461cc62c10c49e2e00b0edf4b108a37212b"
+  },
+  {
+    "source": "GEE/Filter in GEE.js",
+    "destination": "gee/Filter in GEE.js",
+    "status": "Imported unchanged",
+    "sha256": "0b04a5ea654fe087f21fd70e672e1233a478638cc6c8b9222a8aba214019d523"
+  },
+  {
+    "source": "GEE/FilterFunction.js",
+    "destination": "gee/FilterFunction.js",
+    "status": "Imported unchanged",
+    "sha256": "978f24a632425fe96b658585d23455692d05e56eff25a4509f584f9d2c97e708"
+  },
+  {
+    "source": "R/.RData",
+    "destination": null,
+    "status": "Local R session state",
+    "sha256": "8e3f00f0e273005ebce7697437a5880b391ace302fad93c3429cc5abb6ed34f3"
+  },
+  {
+    "source": "R/.Rhistory",
+    "destination": null,
+    "status": "Local R session state",
+    "sha256": "58a08d574baa735c0d915642b98014cfbcd4caa8ab084828e7dc46ad3c8fe3c5"
+  },
+  {
+    "source": "R/Author.csv",
+    "destination": null,
+    "status": "Local data excluded from public upload",
+    "sha256": "deedace0c06467316c4f68a5de6a8093cbb959e539b9da0d4b66728937ec8866"
+  },
+  {
+    "source": "R/Employee data.sav",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "49f2cc03bfd2b4d313fe01a96378efa538f5cd4b1de9eb3f51d55e424f42231f"
+  },
+  {
+    "source": "R/Learining with chatgpt.R",
+    "destination": "r/Learining with chatgpt.R",
+    "status": "Imported unchanged",
+    "sha256": "38a501eb54d5a6407425bf6d7846e32ac161c7c1996f917489824c339cb208d2"
+  },
+  {
+    "source": "R/Lesson 3.R",
+    "destination": "r/Lesson 3.R",
+    "status": "Imported unchanged",
+    "sha256": "0b941fc1cd9c602fac8fdf69e484d006a0dd1a974bef7931ee248872e5c73038"
+  },
+  {
+    "source": "R/Practice Task 2.R",
+    "destination": "r/Practice Task 2.R",
+    "status": "Imported unchanged",
+    "sha256": "7972ce91e84b3fdb3c223f10f019277fc3d3fbf40641ab9652dc0b04078c3c2f"
+  },
+  {
+    "source": "R/Students.xlsx",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "57532416c9b0e3a4d8b51a8874dcd42fb506d054633e51a35413cde57bb68cb5"
+  },
+  {
+    "source": "Sql/p/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources/bba3b02a-54ad-4b9d-9f34-65d53a92d7f9/storage_v2/_src_/schema/main.uQUzAA.meta",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "240079d10e4bf307e8c0338c688bcbc3b15be74d020ca865e735e7cfe2e1a0be"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources/bba3b02a-54ad-4b9d-9f34-65d53a92d7f9.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "d0f09c6499a3acd559b84500dbf2b60cd58e0dfb61b1e607f733856db134290a"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources/fa3cbe05-b7df-49a8-a359-6a13e13067ce/storage_v2/_src_/schema/main.uQUzAA.meta",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "240079d10e4bf307e8c0338c688bcbc3b15be74d020ca865e735e7cfe2e1a0be"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources/fa3cbe05-b7df-49a8-a359-6a13e13067ce.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "641a6697877261f95ace8d241852453cbe81697ba85c89c2565cb1682468b1ca"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources.local.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "446a39e2933e473d9154bdca9ce8415f12d7fb08967d660ddfe452e9c998b176"
+  },
+  {
+    "source": "Sql/p/.idea/dataSources.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "0b0b83baa19d63f4a24d18027fe160b6124fcce4fa2c686001a1aeb84dceb7ba"
+  },
+  {
+    "source": "Sql/p/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "Sql/p/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "Sql/p/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6f57a5f16a000f610ef9ec0729051892c96aa3553a2a294a0a8076a771f6fabb"
+  },
+  {
+    "source": "Sql/p/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "d8268e1b2ee2ef7af0ce7dbc6b3da9680f008508bcc2a08043131af0807b4172"
+  },
+  {
+    "source": "Sql/p/.idea/p.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "Sql/p/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "cf5307e73476abb695514709a3c004dbfb52ba4dad754cc21fbbb15cd6b7fccf"
+  },
+  {
+    "source": "Sql/p/Basic.db",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "ba2361c0ad496c812fcf1aeb571a26d7b9d3620ae3e74d36f711d1357ed59ade"
+  },
+  {
+    "source": "Sql/p/bigquery.sql",
+    "destination": "sql/drafts/bigquery.sql",
+    "status": "Mixed Python/SQL draft; not executable SQL",
+    "sha256": "33932d5e0e800593b6c3150b06bd99b2655bafa6064b6776c806b3b7351a3c89"
+  },
+  {
+    "source": "Sql/p/flyers.html",
+    "destination": "web/flyer/flyers.html",
+    "status": "Reclassified HTML from SQL folder",
+    "sha256": "2f6d68385b9dadfcf88aadb8bc097417bd2e581312c699d1f663310df080025c"
+  },
+  {
+    "source": "Sql/p/identifier.sqlite",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "1c7919b0dcfaba82e8b969d11641d0e44528340192c62c72f4a11324033b4dd6"
+  },
+  {
+    "source": "Sql/p/kobo.py",
+    "destination": "automation/kobo/kobo.py",
+    "status": "Exact duplicate consolidated",
+    "sha256": "44dd2070c7c89486fb4c1bc98040b438c6b73d56beb58c1a48693b645ec32d94"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/.name",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "f62d578a129389b11d6be3f8ab4120daccc2553d279744635ce99183bd90ead6"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/100 Days of python projects.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5455c7cf4e570c2993ea11be1584f4728b4d62b258897742b9b00ac95ddaafb5"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "95808728a6544d969d4ab8119356234be1a2b91ecdca03016444f78c95a42ee5"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "751ff1e12b2a8e6cd837bdef95a897339aeb892d27e371ccb1011ff61db79966"
+  },
+  {
+    "source": "python/100 Days of python projects/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6c84f2fc4281c79eb6b3794069b69d3a1aa3df28dfe746d88a1fdf8d5c19cb4b"
+  },
+  {
+    "source": "python/100 Days of python projects/Band Name Generator.py",
+    "destination": "python/100-days/Band Name Generator.py",
+    "status": "Imported unchanged",
+    "sha256": "f4ff322dfc5fca7789d7dc36220bf46057d2eff40f41cc195f1a4b341ac240dc"
+  },
+  {
+    "source": "python/100 Days of python projects/Basic Dictionary.py",
+    "destination": "python/100-days/Basic Dictionary.py",
+    "status": "Imported unchanged",
+    "sha256": "904b16648a4d6578336708b794a9d64a39bbc116bc16ce52b046a5bc50020992"
+  },
+  {
+    "source": "python/100 Days of python projects/BlackJack.py",
+    "destination": "python/100-days/BlackJack.py",
+    "status": "Imported unchanged",
+    "sha256": "3855845f186e582461907218ef76aa5f42f135a0f6ab4df4c008700933d5c472"
+  },
+  {
+    "source": "python/100 Days of python projects/Black_Jack2ndTry.py",
+    "destination": "python/100-days/Black_Jack2ndTry.py",
+    "status": "Imported unchanged",
+    "sha256": "85568fc730c5da001db295f8bbb36bb30c542bb03cef84eb10d8fcc1f60c8125"
+  },
+  {
+    "source": "python/100 Days of python projects/Black_Jack_Angela_Psueodo.py",
+    "destination": "python/100-days/Black_Jack_Angela_Psueodo.py",
+    "status": "Imported unchanged",
+    "sha256": "4323a9372d85fd59bfe76095771d5e4166ea8dbe639179cbad4a9412413e61b8"
+  },
+  {
+    "source": "python/100 Days of python projects/Black_Jack_final.py",
+    "destination": "python/100-days/Black_Jack_final.py",
+    "status": "Imported unchanged",
+    "sha256": "8837d33f00083cb819e8eb4f865923038d26835d7c398f9175180d5bc9d25a39"
+  },
+  {
+    "source": "python/100 Days of python projects/Black_Jack_from_GPT.py",
+    "destination": "python/100-days/Black_Jack_from_GPT.py",
+    "status": "Imported unchanged",
+    "sha256": "d154e20e2ac819aa8d6822c519e8deda8ec79cac1397ab8d1e7ab9c504899d00"
+  },
+  {
+    "source": "python/100 Days of python projects/Caesar cipher.py",
+    "destination": "python/100-days/Caesar cipher.py",
+    "status": "Imported unchanged",
+    "sha256": "20d2d7df62d24447220e57a47ec7084c9f4ec3eb0e73ab5780cbce9aed3782c0"
+  },
+  {
+    "source": "python/100 Days of python projects/Calculator.py",
+    "destination": "python/100-days/Calculator.py",
+    "status": "Imported unchanged",
+    "sha256": "e7aa053f5d1e3432d5be71ad05db84380ab760961f8e225aec4970718e7997c3"
+  },
+  {
+    "source": "python/100 Days of python projects/Ceaser cipher functional approach.py",
+    "destination": "python/100-days/Ceaser cipher functional approach.py",
+    "status": "Imported unchanged",
+    "sha256": "d7aec8fd55669d64fb3c78c30d08a87d1c77647f8e6ca3e77f5d2572e22d2609"
+  },
+  {
+    "source": "python/100 Days of python projects/Coin toss.py",
+    "destination": "python/100-days/Coin toss.py",
+    "status": "Imported unchanged",
+    "sha256": "638a75ad26f13f2ab147aeffd3b011bcb9de64c2445d8f68beb1a5897e81fd82"
+  },
+  {
+    "source": "python/100 Days of python projects/Data type custing.py",
+    "destination": "python/100-days/Data type custing.py",
+    "status": "Imported unchanged",
+    "sha256": "6ce44e3735abb6f928acfe8700c857f2202238f6eef7bd458c1f883d0765cef1"
+  },
+  {
+    "source": "python/100 Days of python projects/Data type.py",
+    "destination": "python/100-days/Data type.py",
+    "status": "Imported unchanged",
+    "sha256": "ae784f46fef0ec085d17951c83cc11279b7d5889d1e6941bb49a75a3d07e29f4"
+  },
+  {
+    "source": "python/100 Days of python projects/Day 2-Project.py",
+    "destination": "python/100-days/Day 2-Project.py",
+    "status": "Imported unchanged",
+    "sha256": "a601a4a664216d08df6c981f7dd6745167ed1e9a0ee24401bd4b3c433bf6f989"
+  },
+  {
+    "source": "python/100 Days of python projects/Find the island treasure.py",
+    "destination": "python/100-days/Find the island treasure.py",
+    "status": "Imported unchanged",
+    "sha256": "361f06396f5009b817eea4c65be20ec8ea42c7effc14611525c71826841556bb"
+  },
+  {
+    "source": "python/100 Days of python projects/Fizzbuzz.py",
+    "destination": "python/100-days/Fizzbuzz.py",
+    "status": "Imported unchanged",
+    "sha256": "2856d17783054d21835949eff73402423d7fb8a5837e03cbd29041faa0b6dee5"
+  },
+  {
+    "source": "python/100 Days of python projects/Fresh Hangman.py",
+    "destination": "python/100-days/Fresh Hangman.py",
+    "status": "Imported unchanged",
+    "sha256": "93cd76d582d4cc4cd728e08ace4d5486fc689443d9cf8b04244d56f76b677984"
+  },
+  {
+    "source": "python/100 Days of python projects/GussingNumber.py",
+    "destination": "python/100-days/GussingNumber.py",
+    "status": "Imported unchanged",
+    "sha256": "36d7c136de42ebfb906b3e16ccd385bd997afd0f6ca371c4070e95a9be3e2eec"
+  },
+  {
+    "source": "python/100 Days of python projects/Hangman.py",
+    "destination": "python/100-days/Hangman.py",
+    "status": "Imported unchanged",
+    "sha256": "5edba7c56a04f445137b3a68023fa74e375ea0813e75ba5dc7cca7d8675a0534"
+  },
+  {
+    "source": "python/100 Days of python projects/Love calculator.py",
+    "destination": "python/100-days/Love calculator.py",
+    "status": "Imported unchanged",
+    "sha256": "1b0bce3f2c49a6b68d46ebe5994688244311cc455fd5af36a1c2bc1866f010f1"
+  },
+  {
+    "source": "python/100 Days of python projects/Mathematical operator.py",
+    "destination": "python/100-days/Mathematical operator.py",
+    "status": "Imported unchanged",
+    "sha256": "c1d7278365d600a914736a57d9df3d3dc82e57c2dc835e3a6b1f0ad37ecd46c5"
+  },
+  {
+    "source": "python/100 Days of python projects/Nasted List[].py",
+    "destination": "python/100-days/Nasted List[].py",
+    "status": "Imported unchanged",
+    "sha256": "5103580abb01cacd570a0de23219c404e5617edddbb1dd2ef2749fead4120c60"
+  },
+  {
+    "source": "python/100 Days of python projects/Secrect Auction.py",
+    "destination": "python/100-days/Secrect Auction.py",
+    "status": "Imported unchanged",
+    "sha256": "8b14c36967b6f2858f43c80fdda40357e1a0c6af6590113b7090367be529ceb0"
+  },
+  {
+    "source": "python/100 Days of python projects/SecrectAuctionFromChatGPT.py",
+    "destination": "python/100-days/SecrectAuctionFromChatGPT.py",
+    "status": "Imported unchanged",
+    "sha256": "4ac65a4ce298eee51147a6ba173dfe1aea789aca021ad6af0e80b5f5214d4e2d"
+  },
+  {
+    "source": "python/100 Days of python projects/Secret Auction.py",
+    "destination": "python/100-days/Secret Auction.py",
+    "status": "Imported unchanged",
+    "sha256": "e59661ac0c91b0d7b2908e0969db8aca88d89d11ed647557a57b55e72a9493d1"
+  },
+  {
+    "source": "python/100 Days of python projects/Slice to list.py",
+    "destination": "python/100-days/Slice to list.py",
+    "status": "Imported unchanged",
+    "sha256": "b9fb3da8b3dd81a45b109a25a89c4e82aba76c082ea260fa49135e05b00f3781"
+  },
+  {
+    "source": "python/100 Days of python projects/Testing_BlackJack.py",
+    "destination": "python/100-days/Testing_BlackJack.py",
+    "status": "Imported unchanged",
+    "sha256": "843b12241e7c4b450aba2a7e852a8ced57ff646176309324447257638291ec0d"
+  },
+  {
+    "source": "python/100 Days of python projects/Treasue Map.py",
+    "destination": "python/100-days/Treasue Map.py",
+    "status": "Imported unchanged",
+    "sha256": "30bfd8c5f75c0415de7796627b8e46ed0c888e2313915ef5bcc6b51d751b0b7b"
+  },
+  {
+    "source": "python/100 Days of python projects/Variable transfer.py",
+    "destination": "python/100-days/Variable transfer.py",
+    "status": "Imported unchanged",
+    "sha256": "64ce6643a3f9e3de95ea0e6be38458367d4489a28de2dcf9fe2efa186a03f4b3"
+  },
+  {
+    "source": "python/100 Days of python projects/__pycache__/hangman_art.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "079a4f9832be984960c584ce6f92c3d3b81d62ce064f745889c2e27dd21ef1a9"
+  },
+  {
+    "source": "python/100 Days of python projects/days of a month.py",
+    "destination": "python/100-days/days of a month.py",
+    "status": "Imported unchanged",
+    "sha256": "43ff0cb4baf6d24b3b854926eadf17e15d7814b157619907e7b4ed7e2d5b12cd"
+  },
+  {
+    "source": "python/100 Days of python projects/for loop for list rearrange.py",
+    "destination": "python/100-days/for loop for list rearrange.py",
+    "status": "Imported unchanged",
+    "sha256": "2ce02845dcaa62b7793ca8d287e2451a428f7e8a6a2ab44f6e24451415ff0a75"
+  },
+  {
+    "source": "python/100 Days of python projects/hangman_art.py",
+    "destination": "python/100-days/hangman_art.py",
+    "status": "Imported unchanged",
+    "sha256": "28a0e4640d188888d477fbedd6639615ab784df7a567134919aa1fbef174d339"
+  },
+  {
+    "source": "python/100 Days of python projects/if else condition.py",
+    "destination": "python/100-days/if else condition.py",
+    "status": "Imported unchanged",
+    "sha256": "0565a7292f663836fceecfaa6ab1e3c38edec3874aa191c5b1e548b5cdfccc8b"
+  },
+  {
+    "source": "python/100 Days of python projects/insert nesting dictionary.py",
+    "destination": "python/100-days/insert nesting dictionary.py",
+    "status": "Imported unchanged",
+    "sha256": "164799bb4fc9c00c60c76fb4facb80d1fd686402b274da05f5ad343bf9a9c1a9"
+  },
+  {
+    "source": "python/100 Days of python projects/main.py",
+    "destination": "python/100-days/main.py",
+    "status": "Imported unchanged",
+    "sha256": "b7f97e8abf7d0d0c30058002e3245003355f18183b841bf0e1602dea239f86ea"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "2e7cffc1b783abb75e26dd9c44240995e3cec859a73460ec359859eddc48c9e8"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "049601306c37a8eabc72042bef14874b1f145aff5521dd43639843964ec51c9c"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/oop in python.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "822fbcbdae6489bf1bb70caabf36e294f140dbc0228446c51ae669f72cc4b7ff"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/Class attribute Vs Instance attribute.py",
+    "destination": "python/100-days/oop in python/Class attribute Vs Instance attribute.py",
+    "status": "Imported unchanged",
+    "sha256": "32c68619370386d83fb3c6825324f25e436fe46e484201e6dbbbb4f4635d0aa9"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/Encapsulation.py",
+    "destination": "python/100-days/oop in python/Encapsulation.py",
+    "status": "Imported unchanged",
+    "sha256": "393d92bc6e6b9b38ed93681d468655256ce29c5aa9655caca34e1550ee813f08"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/OOP method.py",
+    "destination": "python/100-days/oop in python/OOP method.py",
+    "status": "Imported unchanged",
+    "sha256": "831ebc04193011479a3f97885da0d0a560cd282a28ef51d2db2281fa515f660a"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/OOP with python.py",
+    "destination": "python/100-days/oop in python/OOP with python.py",
+    "status": "Imported unchanged",
+    "sha256": "e219dc4326c4adffe9fe77cafa1ae98c2db7495fc8cea364c21e68f684735ece"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/Problem_solving_before_jumping_00p.py",
+    "destination": "python/100-days/oop in python/Problem_solving_before_jumping_00p.py",
+    "status": "Imported unchanged",
+    "sha256": "82db172b6e67bd9c18f1513efd39536e5b52033926c43975615ea746b45b665a"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/Pyhon oop free code camp.py",
+    "destination": "python/100-days/oop in python/Pyhon oop free code camp.py",
+    "status": "Imported unchanged",
+    "sha256": "c1f55c0ffddce4e6cf4644d36cece4542ff28f643428fef645c1d183f0344b7c"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/__pycache__/OOP method.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "2bf0cdd63a8f43699ebe39435bf09106a969c40401679b5ed49e5a154a4ac4da"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/file.txt",
+    "destination": null,
+    "status": "Local data excluded from public upload",
+    "sha256": "41ef6d224000682deb0345bcbfa449e05933b83438d29c37dc4ba557c272c36f"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/kobo script.py",
+    "destination": "automation/kobo/kobo.py",
+    "status": "Exact duplicate consolidated",
+    "sha256": "44dd2070c7c89486fb4c1bc98040b438c6b73d56beb58c1a48693b645ec32d94"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/main.py",
+    "destination": "python/100-days/oop in python/main.py",
+    "status": "Imported unchanged",
+    "sha256": "ba00dd182fb73f9417371cab0549b0b0adf2bc6bc60f94831ebae89b82163ca6"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/quiz.py",
+    "destination": "python/100-days/oop in python/quiz.py",
+    "status": "Imported unchanged",
+    "sha256": "3e482f4ad6eef2663e15303cea9b86245e6c051bb8e91dd99972dab6775afc48"
+  },
+  {
+    "source": "python/100 Days of python projects/oop in python/store.csv",
+    "destination": "python/100-days/oop in python/store.csv",
+    "status": "Imported unchanged",
+    "sha256": "40fde0879e7d7ebbc0d38662ac55a31947350a26bb05fb04e15d4c9d1a8d977b"
+  },
+  {
+    "source": "python/100 Days of python projects/password Generator.py",
+    "destination": "python/100-days/password Generator.py",
+    "status": "Imported unchanged",
+    "sha256": "0e853face288c59069be98775c3528d152833bb2e6343f58c35a96c7547838e3"
+  },
+  {
+    "source": "python/100 Days of python projects/primeNumberChecker.py",
+    "destination": "python/100-days/primeNumberChecker.py",
+    "status": "Imported unchanged",
+    "sha256": "fac2d581bc12e56d360ddba838558827a210e079688406f2c1f3acfcdfb83cb9"
+  },
+  {
+    "source": "python/100 Days of python projects/random.choice().py",
+    "destination": "python/100-days/random.choice().py",
+    "status": "Imported unchanged",
+    "sha256": "9c4d4028f7301c282e6f65ade9ff111c4295acfc43effc780517dc9e654c8944"
+  },
+  {
+    "source": "python/100 Days of python projects/rock paper scissors.py",
+    "destination": "python/100-days/rock paper scissors.py",
+    "status": "Imported unchanged",
+    "sha256": "00f35d9c4781a17366aa72fc55f2f9ad13182ae4b0e17b73df1b71832c5b3b25"
+  },
+  {
+    "source": "python/100 Days of python projects/student grade.py",
+    "destination": "python/100-days/student grade.py",
+    "status": "Imported unchanged",
+    "sha256": "1586819fbcb945d915aa8420cb239300cdd7a255792140da5859d59bf5ff9666"
+  },
+  {
+    "source": "python/100 Days of python projects/who pay the bill.py",
+    "destination": "python/100-days/who pay the bill.py",
+    "status": "Imported unchanged",
+    "sha256": "009eaa68cb09224205d744fdfffb386fdea1b92a2f7848f86bb8807019569a01"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/.name",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e9e67d5e5cf885fb6699b1b80a7b399b0ac4f4548edb8ff9da26e25bacbc2af2"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/Code_in_Place.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "c06978aa6ab3345f94425dae5dabf0e6c84257e758e23d8c11d564e977eb7d19"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "95808728a6544d969d4ab8119356234be1a2b91ecdca03016444f78c95a42ee5"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "ec9969ee0bb96d46b76d2a2d317c16d2aeb142ff273ebf2b5c780d7375146a64"
+  },
+  {
+    "source": "python/Code_in_Place/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "0cf0f15142f9a783821d425148e7e4e9d549891601fd7f9fc801754e2fb37b0b"
+  },
+  {
+    "source": "python/Code_in_Place/Baby Snakes.py",
+    "destination": "python/code-in-place/Baby Snakes.py",
+    "status": "Imported unchanged",
+    "sha256": "3b035235386ec5208d12af3e1e8c4f2e619cd4a3d25905744817adfdd50be043"
+  },
+  {
+    "source": "python/Code_in_Place/Carbon Dating.py",
+    "destination": "python/code-in-place/Carbon Dating.py",
+    "status": "Imported unchanged",
+    "sha256": "77f094b18ff2f0bd974ea03a71b71ea1eede0de9bd4f74e789fb1dd735bbfd23"
+  },
+  {
+    "source": "python/Code_in_Place/Centered Square.py",
+    "destination": "python/code-in-place/Centered Square.py",
+    "status": "Imported unchanged",
+    "sha256": "6fa9192e0c982c403029c8486bd4753dcef715941614e741e11dc713335f36f1"
+  },
+  {
+    "source": "python/Code_in_Place/Countdown.py",
+    "destination": "python/code-in-place/Countdown.py",
+    "status": "Imported unchanged",
+    "sha256": "3f710cb195e5c59a21693e0fb3fe3ae15e52941cfe242bb3e6641afaaf1e8881"
+  },
+  {
+    "source": "python/Code_in_Place/Dice simulator.py",
+    "destination": "python/code-in-place/Dice simulator.py",
+    "status": "Imported unchanged",
+    "sha256": "8e64238bca88a1481384fc96b01a6c94396611e67be0953b49108f1aa0c38b3c"
+  },
+  {
+    "source": "python/Code_in_Place/Draw own's country's flag.py",
+    "destination": "python/code-in-place/Draw own's country's flag.py",
+    "status": "Imported unchanged",
+    "sha256": "108b3dafa9742e885d898c39d9b17fd0126c1c7419e2c5766f79c0fdc1bbf77d"
+  },
+  {
+    "source": "python/Code_in_Place/Information flow.py",
+    "destination": "python/code-in-place/Information flow.py",
+    "status": "Imported unchanged",
+    "sha256": "697cc74501cf3a5db5223033d9c1acb4c3064bd62554811e3168c8976f5159f3"
+  },
+  {
+    "source": "python/Code_in_Place/Machanism behind loops.py",
+    "destination": "python/code-in-place/Machanism behind loops.py",
+    "status": "Imported unchanged",
+    "sha256": "18c681f54529531e7d0a0f8e50edc20f21118638bebed59f09a1b1748518a7fc"
+  },
+  {
+    "source": "python/Code_in_Place/Operation Precedence.py",
+    "destination": "python/code-in-place/Operation Precedence.py",
+    "status": "Imported unchanged",
+    "sha256": "ca90e942977a5b781540cd88d379f52c8ab8ddf9a9899c67b967766402aff239"
+  },
+  {
+    "source": "python/Code_in_Place/StepUp.py",
+    "destination": "python/code-in-place/StepUp.py",
+    "status": "Imported unchanged",
+    "sha256": "4a3bb85446c6ae2cfc8b79d84482991c65ff7450385807e18da51b1c6ee41eef"
+  },
+  {
+    "source": "python/Code_in_Place/Weight_on_Mars.py",
+    "destination": "python/code-in-place/Weight_on_Mars.py",
+    "status": "Imported unchanged",
+    "sha256": "86f009809d9bf0dc8c72ef0aa6356c4806f804b5f7169dc03ff3545f6d39fff6"
+  },
+  {
+    "source": "python/Code_in_Place/__pycache__/graphics.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "2a1d619b2e3a8fdeff1c83244d2eb0bc57691dc11c923306862427415d4917dc"
+  },
+  {
+    "source": "python/Code_in_Place/add_many_numbers.py",
+    "destination": "python/code-in-place/add_many_numbers.py",
+    "status": "Imported unchanged",
+    "sha256": "8c83eb6b0e204343704dd907d2356b92230082b4be4e8d5827ef1a3ef263e496"
+  },
+  {
+    "source": "python/Code_in_Place/amazng_boolean_variable.py",
+    "destination": "python/code-in-place/amazng_boolean_variable.py",
+    "status": "Imported unchanged",
+    "sha256": "977a86b41be595921146a2516f53540808d23c14f72eef03da74d63d1d9946ac"
+  },
+  {
+    "source": "python/Code_in_Place/diagnostic1.py",
+    "destination": "python/code-in-place/diagnostic1.py",
+    "status": "Imported unchanged",
+    "sha256": "57285b1dc76ef4fb2dcd3b59f4640ea1d6cefc7e14f929d7d6e797c8240d2535"
+  },
+  {
+    "source": "python/Code_in_Place/diagnostic2.py",
+    "destination": "python/code-in-place/diagnostic2.py",
+    "status": "Imported unchanged",
+    "sha256": "9491c57e897622a132022d3bdff346223009fbd66c156fd5d1b57983ebea449f"
+  },
+  {
+    "source": "python/Code_in_Place/diagnostic4.py",
+    "destination": "python/code-in-place/diagnostic4.py",
+    "status": "Imported unchanged",
+    "sha256": "c7f3f8fab4634f6635d383540fb5795c6c44d8127b02010cc02b00f83ce4ee0d"
+  },
+  {
+    "source": "python/Code_in_Place/feet_to_inches.py",
+    "destination": "python/code-in-place/feet_to_inches.py",
+    "status": "Imported unchanged",
+    "sha256": "dbdd539f9a3e11be615612b7f424f6442f136679ade40b11ade3dd66abfbe3e3"
+  },
+  {
+    "source": "python/Code_in_Place/for loop variable.py",
+    "destination": "python/code-in-place/for loop variable.py",
+    "status": "Imported unchanged",
+    "sha256": "a25b7ead20c1b206f789f7d34ac41e84a02575f253a8624282e105749660062c"
+  },
+  {
+    "source": "python/Code_in_Place/function Update.py",
+    "destination": "python/code-in-place/function Update.py",
+    "status": "Imported unchanged",
+    "sha256": "cd930713b3842c103de8d26c5eaf161c81f5c078bca83bd0fb0c8c6544c69cf7"
+  },
+  {
+    "source": "python/Code_in_Place/graphics.py",
+    "destination": "python/code-in-place/graphics.py",
+    "status": "Imported unchanged",
+    "sha256": "10bdd93dd84dd3b217b9a87cb63d03d38cb9a91f7c5fe49f5586d19142ac9b0a"
+  },
+  {
+    "source": "python/Code_in_Place/khansole.py",
+    "destination": "python/code-in-place/khansole.py",
+    "status": "Imported unchanged",
+    "sha256": "845c9dda79688dfe121e22b1da1d8cd244621330bc212a1ce4b13cf424b5298d"
+  },
+  {
+    "source": "python/Code_in_Place/main.py",
+    "destination": "python/code-in-place/main.py",
+    "status": "Imported unchanged",
+    "sha256": "b7f97e8abf7d0d0c30058002e3245003355f18183b841bf0e1602dea239f86ea"
+  },
+  {
+    "source": "python/Code_in_Place/rough.py",
+    "destination": "python/code-in-place/rough.py",
+    "status": "Imported unchanged",
+    "sha256": "316620e15bf8fe93f72318489b0ecbfba3df25de14e9b0d399e58617279791cd"
+  },
+  {
+    "source": "python/Code_in_Place/type_conversion.py",
+    "destination": "python/code-in-place/type_conversion.py",
+    "status": "Imported unchanged",
+    "sha256": "a56be7d1a9f612db7fbab0456fd510219d592ca19263f648fef3855efabd4569"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "992744c436063881d842c5dcf00fc75f6b328006b07d167f2e2657414b5d329d"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "c0f87985218b0b17e81e806eb3e8e8c568d7a42294d39ae5f6afa66a9d34d892"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/other.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "cbc0729d1141827510d56fbd2504401fa51222bb0e32fbe9cf0ef60dd106055f"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/pythonProject.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "c06978aa6ab3345f94425dae5dabf0e6c84257e758e23d8c11d564e977eb7d19"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "085e31b491aee10f2868675a2749e866177cc1761bb6f572a9330f01570f0f05"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/2 Characters Hiragana 100 Words.html",
+    "destination": "web/japanese-vocabulary/2 Characters Hiragana 100 Words.html",
+    "status": "Reclassified by content",
+    "sha256": "7fb3dde68096ff0ee4b27ee1cb962a426f14b8e15839d063cb69502bb65db66d"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/2 Characters Hiragana Word.html",
+    "destination": "web/japanese-vocabulary/2 Characters Hiragana Word.html",
+    "status": "Reclassified by content",
+    "sha256": "728c5aafe82e7488d484c54410771a59f4234dd9fe38aef17d20500c6998dc56"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/3 Characters Hiragan Word.html",
+    "destination": "web/japanese-vocabulary/3 Characters Hiragan Word.html",
+    "status": "Reclassified by content",
+    "sha256": "2c8e2fb95014a3b9c3584143955511c70be49d52b60b7560f4de6d1ca6ac3ec5"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/QQ Plot generator.py",
+    "destination": "python/statistics/QQ Plot generator.py",
+    "status": "Reclassified by content",
+    "sha256": "0465b255b2e43b69a9b66aca0a9013b2b4c1822b5f0cb2d97ebb3072bd915767"
+  },
+  {
+    "source": "python/Learning Statistics/pythonProject/Shapiro-Wilk Test.py",
+    "destination": "python/statistics/Shapiro-Wilk Test.py",
+    "status": "Reclassified by content",
+    "sha256": "b9d74e311657b894c1c1f5c469ec433b9784f90fb548153045a7f82753fe74cd"
+  },
+  {
+    "source": "python/OOP in python/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/OOP in python/.idea/OOP in python.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/OOP in python/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/OOP in python/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/OOP in python/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "992744c436063881d842c5dcf00fc75f6b328006b07d167f2e2657414b5d329d"
+  },
+  {
+    "source": "python/OOP in python/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "f8aab2147ade0bc48e2621d1ec5adefdb8db94dafc27d00cfb38eaa4deb45413"
+  },
+  {
+    "source": "python/OOP in python/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "d178773924ca916aea50e73ded9fd97abfe85fc363d9b403cdb12363069775d0"
+  },
+  {
+    "source": "python/OOP in python/Class.py",
+    "destination": "python/oop-basics/Class.py",
+    "status": "Imported unchanged",
+    "sha256": "1c99f14ddfce5517a1386734561268b49ede31a6868f688342c9dda07eaa880b"
+  },
+  {
+    "source": "python/OOP in python/Inheretence.py",
+    "destination": "python/oop-basics/Inheretence.py",
+    "status": "Imported unchanged",
+    "sha256": "9aa8f83232453d27aa9510db9424c4d2c345841fa2134b0e865867db2ff8c58e"
+  },
+  {
+    "source": "python/OOP in python/Resources/Python 3 _ 400 exercises and solutions for beginners.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "f70112069b64ddff2a8016c10f598e61c6cea229d37b4adaec1f5d1b29ca1787"
+  },
+  {
+    "source": "python/OOP in python/Resources/Python All-In-One for Dummies by John Shovic, Alan Simpson (z-lib.org).pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "bcc9d3f81673bccd312867b5592c89e4dfa2062259930046269378763a2cdf75"
+  },
+  {
+    "source": "python/OOP in python/Resources/Python Scripting for ArcGIS.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "6558c59307adeac078b725325dced60f83266e1c1b144fa06f6524b1ff9afbee"
+  },
+  {
+    "source": "python/OOP in python/main.py",
+    "destination": "python/oop-basics/main.py",
+    "status": "Imported unchanged",
+    "sha256": "b7f97e8abf7d0d0c30058002e3245003355f18183b841bf0e1602dea239f86ea"
+  },
+  {
+    "source": "python/OOP in python/type.py",
+    "destination": "python/oop-basics/type.py",
+    "status": "Imported unchanged",
+    "sha256": "0ff5d7d7a489081d71859dc1b2e67cf4e5355e3199fc00ad1122923c5331a044"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/Python code with harry.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "2872f4190738d65f14faafcda14274840de732010c45d096fad82e5ef771fedc"
+  },
+  {
+    "source": "python/Python code wtih harry/Python code with harry/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5b5802aaef53c8ec9748c6bb79c3b7a92c8297b878a256275d83a5b2be040828"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1bfdece3645ed8ed356030f22cc2004dc3f401ff060ac3d24de811c3bcd82e16"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "9e2ba57a1dc30f32820001789b9d149d202db369fd77661c4a6f011b4e618faf"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "992744c436063881d842c5dcf00fc75f6b328006b07d167f2e2657414b5d329d"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "1a451d5d49e7f93d1f636cf61f2fdf5fb17a5888990ac1348a4de62051d13eed"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/pythonWithHarry.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "c06978aa6ab3345f94425dae5dabf0e6c84257e758e23d8c11d564e977eb7d19"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "3807d8f8751bc1aa310c47c541e90d235b2f9976ccf5d2183769f7050c1030c8"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/oop1.py",
+    "destination": "python/oop-harry/oop1.py",
+    "status": "Imported unchanged",
+    "sha256": "b7914a32b280a998f227a234568fd64dbe4f0315f942faf1a0c2e97b56d3777f"
+  },
+  {
+    "source": "python/Python code wtih harry/pythonWithHarry/oop2.py",
+    "destination": "python/oop-harry/oop2.py",
+    "status": "Imported unchanged",
+    "sha256": "5946859ae249386ba5cc0c1f5c6760f110bd82d279e71771786f7a326ab46531"
+  },
+  {
+    "source": "python/Subin/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/Subin/.idea/.name",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "ae6c76ba3dfc65fa2518676cb119df29199b5ecd3f1c47d2807759a1d21f2c1d"
+  },
+  {
+    "source": "python/Subin/.idea/Subin.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/Subin/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5455c7cf4e570c2993ea11be1584f4728b4d62b258897742b9b00ac95ddaafb5"
+  },
+  {
+    "source": "python/Subin/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/Subin/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a989eb7353031f865663f81ad0de7a62256eef0e8525fc48ea30e5312d1d37e6"
+  },
+  {
+    "source": "python/Subin/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "f82a410f722a8e821c957117005fb5c3ceea75635a10ad8b7fd6e3d11be5812c"
+  },
+  {
+    "source": "python/Subin/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "78cb2ab8907d8fbd3a5f24d71ee93745b83b3ea888853129d05a0c00027b4325"
+  },
+  {
+    "source": "python/Subin/Command Line Argument.py",
+    "destination": "python/subin/Command Line Argument.py",
+    "status": "Imported unchanged",
+    "sha256": "6a651d3b47a781032acc92e3de2fa594acc62dd902f304f485d9039c794fe1c9"
+  },
+  {
+    "source": "python/Subin/Fibonnoci.py",
+    "destination": "python/subin/Fibonnoci.py",
+    "status": "Imported unchanged",
+    "sha256": "da0926d7776b6fb9e03708707fe214e5253bbe044e8ec23365792970a7cccfde"
+  },
+  {
+    "source": "python/Subin/Module and package.py",
+    "destination": "python/subin/Module and package.py",
+    "status": "Imported unchanged",
+    "sha256": "0eff7cc0aaf125fbb7a91c55176035e8f452e61ec2e5256930180680874261d1"
+  },
+  {
+    "source": "python/Subin/Object and Class.py",
+    "destination": "python/subin/Object and Class.py",
+    "status": "Imported unchanged",
+    "sha256": "3c9eae51b77ffe16149abe0f83a8e2e45a7008f7ca6d29adebb43e1153e9a524"
+  },
+  {
+    "source": "python/Subin/Request Module.py",
+    "destination": "python/subin/Request Module.py",
+    "status": "Imported unchanged",
+    "sha256": "6bfd64822f91f4846d9167065c80da281458249f06bf41ee657753685b294d75"
+  },
+  {
+    "source": "python/Subin/__pycache__/fibo.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "50b4455110ed651daed7660f33aa1230c4222e9c1ebd2828199727f6aaf295e1"
+  },
+  {
+    "source": "python/Subin/__pycache__/trail.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "927dd34938deb074e01b737f0af0cf978970e9d0ddbf98b00d1c03425bd27f14"
+  },
+  {
+    "source": "python/Subin/__pycache__/trial.cpython-39.pyc",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5a89f0b76f44c9c00ee87b6c9f2e19e5a0ebdeb0f298ca157ee1234d0624ce72"
+  },
+  {
+    "source": "python/Subin/cp_book_Download.py",
+    "destination": "python/subin/cp_book_Download.py",
+    "status": "Imported unchanged",
+    "sha256": "876f09699c97d5f48418bc181f386ae050e9a437cb3c843657c4d547747418b1"
+  },
+  {
+    "source": "python/Subin/cpbook.pdf",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "17023f102adee7388fc56c40085cab5daf623795189f39eb2900d5464884cf17"
+  },
+  {
+    "source": "python/Subin/dimik.html",
+    "destination": null,
+    "status": "Downloaded third-party HTML; retained in original ZIP",
+    "sha256": "671f7c8c632c50ac32aa17ac59101e905f872b966b8824a297dd5d4d7738338b"
+  },
+  {
+    "source": "python/Subin/dimik2.html",
+    "destination": null,
+    "status": "Downloaded third-party HTML; retained in original ZIP",
+    "sha256": "671f7c8c632c50ac32aa17ac59101e905f872b966b8824a297dd5d4d7738338b"
+  },
+  {
+    "source": "python/Subin/fibo.py",
+    "destination": "python/subin/fibo.py",
+    "status": "Imported unchanged",
+    "sha256": "3f864d63767315ffdc682c832a302592a19c6a2a087cc36d3f19001a19b63eb5"
+  },
+  {
+    "source": "python/Subin/main.py",
+    "destination": "python/subin/main.py",
+    "status": "Imported unchanged",
+    "sha256": "b7f97e8abf7d0d0c30058002e3245003355f18183b841bf0e1602dea239f86ea"
+  },
+  {
+    "source": "python/Subin/program.py",
+    "destination": "python/subin/program.py",
+    "status": "Imported unchanged",
+    "sha256": "938542333623d2c9a945fa803ab89659f47ecf67d3b89e582694b72350836c83"
+  },
+  {
+    "source": "python/Subin/pybook.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "5644597b1a44060c1167eb42cba0e8cb4569062001a5d645c068b2fb6683cf97"
+  },
+  {
+    "source": "python/Subin/pybook1.png",
+    "destination": null,
+    "status": "Reference material, certificate, downloaded asset, or local dataset; retained in original ZIP",
+    "sha256": "38c067626e803d2fb4a4327486474e2bba4988ed8dceaf4ceb470c50f12572c1"
+  },
+  {
+    "source": "python/Subin/test.txt",
+    "destination": "python/subin/test.txt",
+    "status": "Imported unchanged",
+    "sha256": "445135c9d4c60ff36b2518ed2715899264c03eb211fc780ff883e9b157ccd2bd"
+  },
+  {
+    "source": "python/Subin/trail.py",
+    "destination": "python/subin/trail.py",
+    "status": "Imported unchanged",
+    "sha256": "46de340795eca8b5cb2479e66e9c7947792127ffb5b4685c7fb55f5b715149f3"
+  },
+  {
+    "source": "python/Thonny.py",
+    "destination": "python/fundamentals/Thonny.py",
+    "status": "Imported unchanged",
+    "sha256": "0289cf823724949971db729e6cd863c8f69f64f56c788862c5ed5c9448c7204c"
+  },
+  {
+    "source": "python/for i in range(len(numbers)-1, -1, -1)].py",
+    "destination": "python/fundamentals/for i in range(len(numbers)-1, -1, -1)].py",
+    "status": "Imported unchanged",
+    "sha256": "1e6c83363aaa1c171199c8f55e1516bfb629e17bd08fa3f859da56e229a1e25a"
+  },
+  {
+    "source": "python/string method.py",
+    "destination": "python/fundamentals/string method.py",
+    "status": "Imported unchanged",
+    "sha256": "d43d36f2052a5943170275fedec59e9b392e8710e7543f221165777ea2518922"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/.gitignore",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "e2e37ed60c50d8e41c42aa9f3505642a5f1689e67fb6bc7fe8a06dab09a0fa96"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/inspectionProfiles/Project_Default.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "5455c7cf4e570c2993ea11be1584f4728b4d62b258897742b9b00ac95ddaafb5"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/inspectionProfiles/profiles_settings.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/misc.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a989eb7353031f865663f81ad0de7a62256eef0e8525fc48ea30e5312d1d37e6"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/modules.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "f08226e24ede92e52c185682e3b2f02a6d8e352e2dcb8860c0cce28da2079f7b"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/study_with_method_of_str_and_list.iml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "a334fc692d753db149a3f77168c46441b57f33e1b6ad97aa7f1b3baf2f015823"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/.idea/workspace.xml",
+    "destination": null,
+    "status": "IDE metadata or cache",
+    "sha256": "d3e22132f12834f23b2cfecedad554e8a03cea57a1b3d0bc63c2d068a94edf12"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/main.py",
+    "destination": "python/string-list-methods/main.py",
+    "status": "Imported unchanged",
+    "sha256": "b7f97e8abf7d0d0c30058002e3245003355f18183b841bf0e1602dea239f86ea"
+  },
+  {
+    "source": "python/study_with_method_of_str_and_list/stringMethod.py",
+    "destination": "python/string-list-methods/stringMethod.py",
+    "status": "Imported unchanged",
+    "sha256": "b2df7f03a8fa297b79aff3b3cd078e3ffb8f6807024bf73af93fd7534b4f89a9"
+  }
+]

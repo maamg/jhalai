@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Hiragana Flashcards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #f4f4f9;
+            --text-color: #333;
+            --card-front: #ffffff;
+            --card-back: #e8f5e9;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: var(--secondary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 { color: #2c3e50; margin-bottom: 10px; text-align: center; }
+        .progress { margin-bottom: 20px; font-weight: bold; color: #666; }
+
+        /* ফ্ল্যাশকার্ড কন্টেইনার */
+        .flashcard-container {
+            width: 350px;
+            height: 250px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .flashcard-inner {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-radius: 20px;
+        }
+
+        .flashcard-container.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+
+        .front, .back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            border: 2px solid #ddd;
+        }
+
+        .front {
+            background-color: var(--card-front);
+            font-size: 80px;
+            color: #b03a2e;
+            font-weight: bold;
+        }
+
+        .back {
+            background-color: var(--card-back);
+            color: var(--text-color);
+            transform: rotateY(180deg);
+        }
+
+        .romaji { font-size: 40px; font-weight: bold; color: #2e7d32; margin-bottom: 5px; }
+        .english { font-size: 24px; font-style: italic; color: #555; }
+
+        /* কন্ট্রোল বাটন */
+        .controls {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            background-color: #2c3e50;
+            color: white;
+            transition: 0.3s;
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        button:hover { background-color: #34495e; transform: translateY(-2px); }
+        button:active { transform: translateY(0); }
+        .shuffle-btn { background-color: #8e44ad; }
+        .shuffle-btn:hover { background-color: #9b59b6; }
+
+        @media (max-width: 400px) {
+            .flashcard-container { width: 300px; height: 220px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>হিরাগানা শব্দ শিখুন (১০০ টি)</h2>
+    <div class="progress" id="progress-text">কার্ড: ১ / ১০০</div>
+
+    <div class="flashcard-container" id="card-container" onclick="flipCard()">
+        <div class="flashcard-inner">
+            <div class="front" id="front-text">たべる</div>
+            <div class="back">
+                <div class="romaji" id="back-romaji">Taberu</div>
+                <div class="english" id="back-english">To eat</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="prevCard()">আগেরটি</button>
+        <button onclick="nextCard()">পরেরটি</button>
+        <button class="shuffle-btn" onclick="shuffleCards()">এলোমেলো করুন</button>
+    </div>
+
+    <script>
+        // ১০০টি শব্দের ডাটাবেস
+        let flashcards = [
+                            { h: "たべる", r: "Taberu", e: "To eat" },
+                            { h: "あげる", r: "Ageru", e: "To give" },
+                            { h: "あける", r: "Akeru", e: "To open" },
+                            { h: "みる", r: "Miru", e: "To see" },
+                            { h: "でる", r: "Deru", e: "To go out" },
+                            { h: "くる", r: "Kuru", e: "To come" },
+                            { h: "おしえる", r: "Oshieru", e: "To teach" },
+                            { h: "ねる", r: "Neru", e: "To sleep" },
+                            { h: "おきる", r: "Okiru", e: "To wake up" },
+                            { h: "かく", r: "Kaku", e: "To write" },
+                            { h: "はなす", r: "Hanasu", e: "To talk" },
+                            { h: "よむ", r: "Yomu", e: "To read" },
+                            { h: "まつ", r: "Matsu", e: "To wait" },
+                            { h: "たつ", r: "Tatsu", e: "To stand up" },
+                            { h: "かう", r: "Kau", e: "To buy" },
+                            { h: "いく", r: "Iku", e: "To go" }
+                        ];
+
+        let currentIndex = 0;
+
+        function updateCard() {
+            const cardContainer = document.getElementById("card-container");
+            cardContainer.classList.remove("flipped"); // নতুন কার্ড আসার সময় উল্টানো অবস্থা বন্ধ হবে
+
+            setTimeout(() => {
+                document.getElementById("front-text").innerText = flashcards[currentIndex].h;
+                document.getElementById("back-romaji").innerText = flashcards[currentIndex].r;
+                document.getElementById("back-english").innerText = flashcards[currentIndex].e;
+                document.getElementById("progress-text").innerText = `কার্ড: ${currentIndex + 1} / ${flashcards.length}`;
+            }, 150);
+        }
+
+        function flipCard() {
+            document.getElementById("card-container").classList.toggle("flipped");
+        }
+
+        function nextCard() {
+            if (currentIndex < flashcards.length - 1) {
+                currentIndex++;
+                updateCard();
+            }
+        }
+
+        function prevCard() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCard();
+            }
+        }
+
+        function shuffleCards() {
+            flashcards.sort(() => Math.random() - 0.5);
+            currentIndex = 0;
+            updateCard();
+            alert("শব্দগুলো এলোমেলো করা হয়েছে!");
+        }
+
+        // কীবোর্ড সাপোর্ট (Arrow keys)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "ArrowRight") nextCard();
+            if (e.key === "ArrowLeft") prevCard();
+            if (e.key === " ") { e.preventDefault(); flipCard(); }
+        });
+    </script>
+</body>
+</html>

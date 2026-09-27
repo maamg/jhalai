@@ -1,0 +1,19 @@
+# Local editor and interpreter state
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.RData
+.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
+# Credentials and generated results
+.env
+.env.*
+!.env.example
+RMTP_Questionnaire_XLSForm.xlsx
+student_data.csv
+node_modules/
