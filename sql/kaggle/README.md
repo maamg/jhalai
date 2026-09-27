@@ -1,47 +1,36 @@
-# Kaggle SQL Practice
+# Kaggle SQL and BigQuery Practice
 
-A collection of saved SQL learning notebooks by Abdul Aziz.
+Saved learning work by Abdul Aziz: dataset exploration, schema inspection and introductory SQL. Six distinct notebooks are retained after comparing eight uploaded files (including the notebook imported earlier).
 
-## Exercise index
+## Start here
 
-| Exercise | Concepts | Status |
-| --- | --- | --- |
-| [Select, From, Where](notebooks/select-from-where.ipynb) | Select a column, identify a table, filter rows | Original incomplete notebook; no saved results |
-| [Reviewed SQL query](queries/select-from-where.sql) | Same query with matching identifier quotes | Syntax correction only; not executed against BigQuery |
+**[Chicago Crime exercises](notebooks/03-chicago-crime-exercises.ipynb)** contain saved Kaggle checker results marked **Correct** for all three questions: counting tables, counting TIMESTAMP fields, and identifying latitude/longitude fields for mapping. This is course-exercise evidence from the saved notebook, not a fresh run or an independent research project.
 
-## Select, From, Where
+## Learning sequence
 
-**Question:** Which values in the `city` column occur in rows whose `country` is `US`?
+| Step | Notebook | What it demonstrates | Saved evidence / status |
+| --- | --- | --- | --- |
+| 1 | [BigQuery walkthrough](notebooks/01-bigquery-hacker-news-walkthrough.ipynb) | Client, dataset/table references, Hacker News schema and row previews | Schema and dataframe outputs saved |
+| 2 | [Schema practice](notebooks/02-hacker-news-schema-practice.ipynb) | Column names/types, field selection, Bengali learning notes | Schema, printed fields and dataframe outputs saved |
+| 3 | [Chicago Crime exercises](notebooks/03-chicago-crime-exercises.ipynb) | Table count, TIMESTAMP field count, mapping fields | Three saved Correct results |
+| 4 | [SELECT–FROM–WHERE draft](notebooks/select-from-where.ipynb) | City selection and country filtering | Incomplete; no saved result |
 
-The notebook references `bigquery-public-data.openaq.global_air_quality`. This is the table named in the saved exercise; its current availability and schema have not been verified.
+## Supporting material
 
-- `SELECT city` returns the city column.
-- `FROM` identifies the source table.
-- `WHERE country = 'US'` keeps rows with that country value.
-- There is no `DISTINCT`, so repeated city values may appear.
-- There is no `ORDER BY`, so no particular result order is requested.
+- [Chicago Crime alternate attempt](drafts/chicago-crime-alternate-attempt.ipynb): a different attempt, not a duplicate. Q1 has a saved Correct result; Q2/Q3 are unfinished. Raw SQL appears in a Python cell. Saved solution/hint feedback is retained.
+- [OpenAQ exercise template](templates/openaq-select-where-exercises.ipynb): setup output is saved, but answer placeholders remain. It is not presented as solved work.
+- [Reviewed SELECT query](queries/select-from-where.sql): previously extracted query with corrected identifier quoting; not executed.
+- [Extracted schema-count query](queries/chicago-crime-timestamp-fields.sql): SQL from the alternate attempt, placed in a SQL file; not executed.
+- [SELECT draft details](notes/select-from-where.md)
+- [Review notes](notes/REVIEW.md)
+- [Duplicate decisions and original filenames](IMPORT-MAP.md)
 
-## Original and reviewed versions
+## Sources and execution
 
-The original notebook is preserved byte-for-byte from the uploaded file. The separate SQL file fixes the mismatched table-name closing quote (a single quote instead of a backtick) and adds a terminating semicolon. These edits were made during repository organisation; the SQL file is not a separate historical exercise.
+The Chicago Crime and OpenAQ exercise notebooks link to [Kaggle Learn — Intro to SQL](https://www.kaggle.com/learn/intro-to-sql). Original course prompts, credits, hints and solutions remain in their notebooks. Course scaffolding is not claimed as independently authored work. The original public URLs for the user's individual notebooks were not supplied.
 
-The notebook still needs:
-1. `from google.cloud import bigquery` before creating the client.
-2. A correctly configured BigQuery project and authentication.
-3. The matching closing backtick in the query.
-4. A result-retrieval step after `client.query(query)`.
+Open these notebooks on Kaggle with the appropriate BigQuery integration and, for exercise checkers, Kaggle `learntools`. Outside Kaggle, BigQuery authentication/project setup and the relevant Python dependencies are required. Dataset availability and cloud execution were not rechecked during this organisation pass.
 
-The original variable name is `qurey_job`. This is a spelling issue, not itself a syntax error; any subsequent reference must use the same name, or both should be renamed consistently.
+Existing output cells are historical evidence from the uploaded files. They were not regenerated. No cloud queries were executed and no missing answers were filled in.
 
-## Reproduction and evidence
-
-Use the reviewed query in an authorised BigQuery environment with access to the referenced table. Query execution may consume BigQuery quota or incur charges depending on configuration. No cloud queries were run during this import.
-
-The uploaded notebook contains no saved outputs or execution evidence. Result samples have not been invented. The original Kaggle notebook URL and precise course attribution were not included in the file and can be added when available.
-
-## Files
-
-- [Original notebook](notebooks/select-from-where.ipynb)
-- [Reviewed SQL](queries/select-from-where.sql)
-- [All SQL practice](../README.md)
-- [Programming collection](../../README.md)
+[All SQL practice](../README.md) · [Programming collection](../../README.md)

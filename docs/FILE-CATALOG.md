@@ -117,3 +117,13 @@
 - [Original SELECT/FROM/WHERE notebook](../sql/kaggle/notebooks/select-from-where.ipynb)
 - [Reviewed SQL query](../sql/kaggle/queries/select-from-where.sql)
 - [Exercise notes and limitations](../sql/kaggle/README.md)
+
+## Additional Kaggle notebooks
+
+- [notebooks/01-bigquery-hacker-news-walkthrough.ipynb](../sql/kaggle/notebooks/01-bigquery-hacker-news-walkthrough.ipynb)
+- [notebooks/02-hacker-news-schema-practice.ipynb](../sql/kaggle/notebooks/02-hacker-news-schema-practice.ipynb)
+- [notebooks/03-chicago-crime-exercises.ipynb](../sql/kaggle/notebooks/03-chicago-crime-exercises.ipynb)
+- [drafts/chicago-crime-alternate-attempt.ipynb](../sql/kaggle/drafts/chicago-crime-alternate-attempt.ipynb)
+- [templates/openaq-select-where-exercises.ipynb](../sql/kaggle/templates/openaq-select-where-exercises.ipynb)
+- [Extracted Chicago Crime schema query](../sql/kaggle/queries/chicago-crime-timestamp-fields.sql)
+- [Import map and duplicate decisions](../sql/kaggle/IMPORT-MAP.md)

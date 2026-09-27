@@ -9,7 +9,7 @@ A browsable collection of learning exercises in Python, Google Earth Engine, R, 
 | [Python](python/) | Fundamentals, 100 Days exercises, Code in Place, OOP and statistics |
 | [Earth Engine](gee/) | Sentinel-2 collection filtering exercises |
 | [R](r/) | Data frames, descriptive summaries and file import practice |
-| [SQL and BigQuery](sql/) | Kaggle SELECT/FROM/WHERE practice and an earlier client draft |
+| [SQL and BigQuery](sql/) | Kaggle dataset exploration, Chicago Crime exercises and SELECT/WHERE practice |
 | [Automation](automation/kobo/) | Generate a KoBo XLSForm with pandas |
 | [HTML practice](web/) | Japanese vocabulary pages and a flyer |
 

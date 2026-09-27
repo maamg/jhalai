@@ -2,11 +2,11 @@
 
 | Collection | Contents | Status |
 | --- | --- | --- |
-| [Kaggle SQL](kaggle/) | SELECT, FROM and WHERE with an OpenAQ table reference | Original incomplete notebook plus reviewed SQL |
+| [Kaggle SQL and BigQuery](kaggle/) | Six distinct notebooks: Hacker News exploration, Chicago Crime exercises, SELECT/WHERE practice and an exercise template | Saved outputs and completion status documented |
 | [Earlier BigQuery draft](drafts/bigquery.sql) | Python client setup notes | Mixed Python/SQL syntax; unfinished |
 
-## Earlier draft
+Start with the [Chicago Crime exercise notebook](kaggle/notebooks/03-chicago-crime-exercises.ipynb), which includes three saved Correct checker results. See the [Kaggle index](kaggle/) for incomplete attempts, original credits, duplicate decisions and execution requirements.
 
-`drafts/bigquery.sql` combines Python client code with SQL-style comments. It is preserved as an unfinished note and is not valid executable SQL or Python. To complete it, use a Python file, Python comments, the Google Cloud BigQuery client library and your own configured project/dataset. No database snapshots or credentials are included.
+The earlier `drafts/bigquery.sql` is preserved as an unfinished note; it mixes Python client code with SQL-style comments and is not an executable SQL query.
 
 [Back to programming practice](../README.md)
