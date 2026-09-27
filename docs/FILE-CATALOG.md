@@ -111,3 +111,9 @@
 - [web/japanese-vocabulary/2 Characters Hiragana 100 Words.html](../web/japanese-vocabulary/2%20Characters%20Hiragana%20100%20Words.html)
 - [web/japanese-vocabulary/2 Characters Hiragana Word.html](../web/japanese-vocabulary/2%20Characters%20Hiragana%20Word.html)
 - [web/japanese-vocabulary/3 Characters Hiragan Word.html](../web/japanese-vocabulary/3%20Characters%20Hiragan%20Word.html)
+
+## Kaggle SQL addition
+
+- [Original SELECT/FROM/WHERE notebook](../sql/kaggle/notebooks/select-from-where.ipynb)
+- [Reviewed SQL query](../sql/kaggle/queries/select-from-where.sql)
+- [Exercise notes and limitations](../sql/kaggle/README.md)
